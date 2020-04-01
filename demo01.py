@@ -41,9 +41,9 @@
 # print("input获取的内容 :", a+b)
 
 
-# a = input("请输入 ：")
-# b = input("请输入 : ")
-# print("输出两段代码长度和 ：",len(a+b))
+a = input("请输入 ：")
+b = input("请输入 : ")
+print("输出两段代码长度和 ：",len(a)+len(b))
 
 
 # 元组  ,下标从零开始编号，不会重复
