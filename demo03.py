@@ -116,5 +116,7 @@
 # zhangsan.work()
 # zhangsan .chuyi()
 
+# a = {"name":"张三","age":18}
+# print("年龄%d名字叫%s的开始了新的一天"%(a["age"],a["name"]))
 
 
