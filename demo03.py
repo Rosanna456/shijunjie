@@ -47,45 +47,45 @@
 # # zhangsan.chuyi()
 # # print(zhangsan.high)
 
-# #改类的参数
-# class GirlFriend():
-#     """
-#     女朋友
+#改类的参数
+class GirlFriend():
+    """
+    女朋友
 
-#     """
-#     def __init__(self,sex,high,weigh,hair,age) :       #类的属性。（定义类的属性的时候一定是两个下划线)
-#         self.sex = sex
-#         self.high = high
-#         self.weight = weigh
-#         self.hair = hair
-#         self.age = age
+    """
+    def __init__(self,sex,high,weigh,hair,age) :       #类的属性。（定义类的属性的时候一定是两个下划线)
+        self.sex = sex
+        self.high = high
+        self.weight = weigh
+        self.hair = hair
+        self.age = age
 
-#     def caiyi(self,num) :  
-#         """
-#         才艺表演
-#         """
-#         print("你性别为"+self.sex+"身高为"+self.high+"体重为"+self.weight+"发型为"+self.hair+"年龄为"+self.age+"的女朋友开始了才艺表演之：")
-#         if num == 1 :
-#             print("胸口碎大石")
-#         elif num == 2 :
-#             print("唱跳RAP篮球")
-#         else :
-#             print("单手开瓶盖")
+    def caiyi(self,num) :  
+        """
+        才艺表演
+        """
+        print("你性别为%s身高为%s体重为%s发型为%s年龄为%s的女朋友开始了才艺表演之：" %(self.sex,self.high,self.weight,self.hair,self.age))
+        if num == 1 :
+            print("胸口碎大石")
+        elif num == 2 :
+            print("唱跳RAP篮球")
+        else :
+            print("单手开瓶盖")
     
-#     def chuyi(self) :    
-#         """ 厨艺持家 """
-#         print("你性别为"+self.sex+"身高为"+self.high+"体重为"+self.weight+"发型为"+self.hair+"年龄为"+self.age+"的女朋友开始了厨艺表演之：")
-#         print("精通八大菜系")
+    def chuyi(self) :    
+        """ 厨艺持家 """
+        print("你性别为"+self.sex+"身高为"+self.high+"体重为"+self.weight+"发型为"+self.hair+"年龄为"+self.age+"的女朋友开始了厨艺表演之：")
+        print("精通八大菜系")
 
-#     def work(self) :    
-#         """ 工作挣钱 """
-#         print("你性别为"+self.sex+"身高为"+self.high+"体重为"+self.weight+"发型为"+self.hair+"年龄为"+self.age+"的女朋友开始了工作之：")
-#         print("开挖掘机！")
+    def work(self) :    
+        """ 工作挣钱 """
+        print("你性别为"+self.sex+"身高为"+self.high+"体重为"+self.weight+"发型为"+self.hair+"年龄为"+self.age+"的女朋友开始了工作之：")
+        print("开挖掘机！")
 
-# # zhangsan =  GirlFriend("女","165cm","45kg","红头发","25岁")
-# # zhangsan.caiyi(2) 
-# # zhangsan.chuyi()
-# # print(zhangsan.high)
+zhangsan =  GirlFriend("女","165cm","45kg","红头发","25岁")
+zhangsan.caiyi(2) 
+zhangsan.chuyi()
+print(zhangsan.high)
 
 # # class Car():
 # #     def __init__(self,pinpai,yanse,neishi,jilun):
